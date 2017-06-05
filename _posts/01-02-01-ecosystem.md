@@ -10,7 +10,7 @@ At the very minimum, you need to know how to use [Git](https://git-scm.com/) and
 
 For local development, you’ll need to have at least [Vagrant](https://www.vagrantup.com/) and [VirtualBox](https://www.virtualbox.org/) installed. This is used by [Homestead](https://laravel.com/docs/5.2/homestead) (a special vagrant box made for running Laravel apps). Although you can use the traditional WAMP/MAMP/XAMPP stack, those are not officially supported, thus you might have hard time down the road.
 
-Pure “Laravel-way” frontend development might be a daunting one as it got has a long chain of technologies. At the very top of the chain is [Elixir](https://laravel.com/docs/5.2/elixir), which is basically an API for [GulpJS](http://gulpjs.com/), which in turn requires [npm](https://www.npmjs.com/) which is basically a package manager for [NodeJS](https://nodejs.org/en/).
+Pure “Laravel-way” frontend development might be a daunting one as it has got a long chain of technologies. At the very top of the chain is [Elixir](https://laravel.com/docs/5.2/elixir), which is basically an API for [GulpJS](http://gulpjs.com/), which in turn requires [npm](https://www.npmjs.com/) which is basically a package manager for [NodeJS](https://nodejs.org/en/).
 
 CSS is managed either through [Sass](http://sass-lang.com/) or [LESS](http://lesscss.org/), while JavaScript is through [CoffeeScript](http://coffeescript.org/). You can write [ES6/ES7](http://es6-features.org/) code since Elixir also supports [BabelJS](https://babeljs.io/). While NodeJS dependencies are then made available to browsers through [Browserify](http://browserify.org/).
 
